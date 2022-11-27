@@ -1,0 +1,9 @@
+plugins {
+    id 'org.asciidoctor.convert' version '1.5.8'
+}
+
+apply from: "$rootDir/scripts/asciidoctor_1.5.8.gradle"
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}

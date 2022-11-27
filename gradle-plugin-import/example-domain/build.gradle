@@ -1,0 +1,4 @@
+apply from: "$rootDir/scripts/querydsl_jpa_5.0.0.gradle"
+
+dependencies {
+}
